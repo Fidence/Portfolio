@@ -1,0 +1,118 @@
+body {
+  padding: 0;
+  margin: 0;
+  color: white;
+  background-color: #000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  padding: 20px;
+  font-size: 20px;
+}
+
+nav ul li:hover {
+  color: rgb(7, 192, 7);
+  border-bottom: 2px solid rgb(7, 192, 7);
+  border-radius: 10px;
+  transition: 0.3s ease-in;
+}
+
+nav .logo h2 {
+  color: rgb(7, 192, 7);
+}
+
+span {
+  color: rgb(7, 192, 7);
+}
+
+.fido {
+  display: flex;
+  margin: 30px;
+  font-size: 20px;
+}
+
+.fido .text {
+  flex: 1;
+}
+
+.fido .image {
+  flex: 1;
+  padding-left: 200px;
+}
+
+.fido .image img {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+}
+
+button {
+  background-color: rgb(7, 192, 7);
+  border: none;
+  padding: 15px;
+  color: white;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: green;
+  position: relative;
+  top: 7px;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.one h2 {
+  color: rgb(7, 192, 7);
+  font-size: 30px;
+  text-align: center;
+  padding: 30px;
+}
+.we {
+  color: white;
+  font-size: 20px;
+}
+
+.view ul {
+  display: flex;
+  margin-top: 30px;
+}
+
+.view ul li {
+  list-style: none;
+}
+
+.view ul li a {
+  color: white;
+  list-style: none;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.view h3 {
+  color: rgb(7, 192, 7);
+  font: 30px;
+}
+
+.view ul li a:hover {
+  color: rgb(7, 192, 7);
+  position: relative;
+  top: 7px;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+  border-bottom: rgb(7, 192, 7) solid 2px;
+  border-radius: 10px;
+}

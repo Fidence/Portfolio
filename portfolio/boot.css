@@ -1,0 +1,67 @@
+.card-body{
+    border: rgb(91, 176, 233) 1px solid;
+}
+
+.yes{
+    display: flex;
+    margin-left: 20px;
+}
+
+.no{
+    display: flex;
+    margin: 20px;
+}
+
+.card{
+    margin: 20px;
+}
+nav{
+    background-color: green;
+}
+nav-link:hover{
+    background-color: white;!important
+   border-bottom:7px;
+}
+.two{
+    display: flex;
+    width: 1000px;
+    height: 450px;
+   margin-top: 30px;
+    padding: 20px;
+}
+
+.two1{
+    border-left: 3px solid black;
+    padding: 10px;
+}
+
+.one{
+    display: flex;
+    width: 1000px;
+    height: 450px;
+    padding: 20px;
+    border-left: black solid 3px;
+    margin: 20px;
+    margin-top: 20px;
+}
+
+.one1{
+   
+    padding: 10px;
+}
+
+.one .one1 .btn{
+    border-radius: 7px;
+    background-color: rgb(253, 202, 61);
+    padding: 10px;
+}
+
+.one .one1 .btn:hover{
+cursor: pointer;
+position: relative;
+top: 7px;
+transition: 0.3s ease-in
+}
+
+
+
